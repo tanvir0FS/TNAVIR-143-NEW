@@ -22,6 +22,6 @@ let path = __dirname + `/cache/poli.png`;
   })).data;
   fs.writeFileSync(path, Buffer.from(poli, "utf-8"));
   api.sendMessage({
-    body: `Here is what I Generated...`,
+    body: `[🤍] 𝘗𝘰𝘭𝘪 𝘈𝘪 𝘎𝘦𝘯𝘦𝘳𝘢𝘵𝘦𝘥 𝘚𝘶𝘤𝘤𝘦𝘴𝘴𝘧𝘶𝘭`,
     attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID);
 };
