@@ -1,27 +1,23 @@
-module.exports = {
-  config: {
+module.exports.config = {
   name: "inbox",
   version: "1.0.0",
-  permission: 0,
-  credits: "Nayan",
+  hasPermission: 0,
+  credits: "Yan Maglinte",
+  description: "Share a contact of a certain userID",
   usePrefix: false,
-  description: "Inbox",
-  commandCategory: "without prefix",
-  cooldowns: 5
-},
+  commandCategory: "message",
+  cooldowns: 5,
+};
 
-start: async function({ nayan, events, Users, NAYAN }) {
-  let uid;
-  if (events.type === "message_reply") {
-    uid = events.messageReply.senderID;
-  } else if (Object.keys(events.mentions).length > 0) {
-    uid = Object.keys(events.mentions)[0];
-  } else {
-    uid = events.senderID;
+module.exports.run = async function ({ api, args, event }) {
+  try {
+    api.shareContact(
+      args ? args.join(" ") : "• Hello this is your contact!",
+      event.messageReply?.senderID || event.senderID,
+      event.threadID,
+      event.messageID
+    );
+  } catch (error) {
+    api.sendMessage("error", event.threadID, event.messageID);
   }
-
-  let name = await Users.getNameUser(uid);
-const msg = `[🤍] 𝘗𝘳𝘰𝘧𝘪𝘭𝘦     👇   || 	👇  	  𝘐𝘯𝘣𝘰𝘹`
-await NAYAN.sendContact(msg, uid, events.threadID, events.messageID);
-}
-}
+};
