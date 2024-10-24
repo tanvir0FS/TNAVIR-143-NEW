@@ -3,10 +3,9 @@ const config = {
         version: "1.6.9",
         author: "Dipto",
         credits: "Dipto",
-        countDown: 2,
-        cooldown : 2,
+        countDown: 0,
+        usePrefix: false,
         role: 0,
-    		usePrefix: false,
         hasPermission: 0,
         description: "Tag user",
         category: "tag",
@@ -37,9 +36,3 @@ const run = async ({ api, args, event }) => {
         api.sendMessage(`Error: ${error.message}`, event.threadID, event.messageID);
    }
   };
-
-module.exports = {
-  config, 
-  onStart,
-  run: onStart
-};
