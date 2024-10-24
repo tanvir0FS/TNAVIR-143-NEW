@@ -32,7 +32,7 @@ const fs = global.nodemodule["fs"];
 
 var query = (event.type == "message_reply") ? event.messageReply.body : args.join(" ");
   //let query = args.join(" ");
-  api.sendMessage(`[🤍] 𝘴𝘦𝘢𝘳𝘤𝘩𝘪𝘯𝘨 𝘵𝘩𝘪𝘴 𝘪𝘵𝘦𝘮...`, event.threadID, event.messageID);
+  api.sendMessage(`[🤍] 𝘴𝘦𝘢𝘳𝘤𝘩𝘪𝘯𝘨 𝘵𝘩𝘪𝘴 𝘪𝘵𝘦𝘮...,`, event.threadID, event.messageID);
 
   let result = await google.image(query, {safe: false});
   if(result.length === 0) {
