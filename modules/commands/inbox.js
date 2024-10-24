@@ -4,9 +4,9 @@ module.exports = {
   version: "1.0.0",
   permission: 0,
   credits: "Nayan",
-  prefix: 'awto',
+  usePrefix: false,
   description: "Inbox",
-  category: "without prefix",
+  commandCategory: "without prefix",
   cooldowns: 5
 },
 
