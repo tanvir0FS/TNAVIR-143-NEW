@@ -23,7 +23,7 @@ module.exports = {
     if (!prompt) return api.sendMessage("❌| Wrong Format. ✅ | Use: 17/18 years old boy/girl watching football match on TV with 'Dipto' and '69' written on the back of their dress, 4k", event.threadID, event.messageID);
     try {
        //const cookies = "cookies here (_U value)";
-const cookies = ["19TszJuB_FVAiyEx31vBsVumY0cDtVF4V1B4kU3ccJIv31KczDe5TsLOYa1j8BTQzChCqu4VXPbKEEJ7Pbex6vB_1T-0pOWdq05TR79mARGwut68YSxF4DK-tC6ow3K9_8VWstSD2T7y7-E4-7S77J2O0qjGVCCNdCGArT0aIvEUzrYJlml-_7PdVsk1Utcp12V2vd0FaSXfqYh5yzyjidQ"];
+const cookies = ["19TszJuB_FVAiyEx31vBsVumY0cDtVF4V1B4kU3ccJIv31KczDe5TsLOYa1j8BTQzChCqu4VXPbKEEJ7Pbex6vB_1T-0pOWdq05TR79mARGwut68YSxF4DK-tC6ow3K9_8VWstSD2T7y7-E4-7S77J2O0qjGVCCNdCGArT0aIvEUzrYJlml-_7PdVsk1Utcp12V2vd0FaSXfqYh5yzyjidQ", "137jfRDj1ZuuP_IOU1zjV66LY8eu7vK51CbRIKnXXY85toSv_9ELQeurK9mKWkdsaOq-hNs5_Y900V-rSzFkFts8pdFDWLqNfjmJKUqmv_r7NLHl8hRlfdU6YuX8e7_P1IJ4-oZhaKQZFItz6lqkzj_mwKIvCPs4TH6FKV9ntCqNRRumoas73HISN4Fi1XmggK-8jt4DO13pNRCw3w5iXP_d2TehjrHhVAilYnykmcEk", "1V_Rd3IoVz3J7jKx6pwgmzM4D24jNA3RFQzK5e0mxQnzZhjrFz0F5VF_sUReM3J8QJnbM_PQ02STfugXLpQ0Kk0rJgKGXMp_N2f0FRSKJw-LOjF3XHwrJJEF5Wta2yz7udBYeWosN8STNHBRCmb8wj2INU34GK_QNHuTfMWEsusrHioFPKWmUOj0KF4XZOx805hZHAu3TvQpEzyL9DkYL5nhTbJujWEWIAfi5fe8XM0Q"];
 const randomCookie = cookies[Math.floor(Math.random() * cookies.length)];
       const wait = api.sendMessage("Wait koro baby 😽", event.threadID);
       const response = await axios.get(`${await baseApiUrl()}/dalle?prompt=${prompt}&key=dipto008&cookies=${randomCookie}`);
