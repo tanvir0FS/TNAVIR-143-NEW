@@ -1,10 +1,10 @@
 module.exports.config = {
-  name: "poli",
+  name: "gen",
   version: "1.0.",
   hasPermssion: 0,
   credits: "jameslim",
   description: "generate image from polination",
-  usePrefix: true,
+  usePrefix: false,
   commandCategory: "image",
   usages: "query",
   cooldowns: 2,
