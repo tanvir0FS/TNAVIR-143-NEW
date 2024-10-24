@@ -1,10 +1,10 @@
 module.exports.config = {
-  name: "sharecontact",
+  name: "inbox",
   version: "1.0.0",
   hasPermission: 0,
   credits: "Yan Maglinte",
   description: "Share a contact of a certain userID",
-  usePrefix: true,
+  usePrefix: false,
   commandCategory: "message",
   cooldowns: 5,
 };
@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.run = async function ({ api, args, event }) {
   try {
     api.shareContact(
-      args ? args.join(" ") : "• Hello this is your contact!",
+      args ? args.join(" ") : "[🤍] 𝘗𝘳𝘰𝘧𝘪𝘭𝘦     👇   || 	👇  	  𝘐𝘯𝘣𝘰𝘹",
       event.messageReply?.senderID || event.senderID,
       event.threadID,
       event.messageID
