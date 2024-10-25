@@ -21,7 +21,7 @@ const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
     var link = [
-"https://i.imgur.com/vAKXJPz.jpeg",
+"https://i.imgur.com/n2d41PL.jpeg",
      ];
      var callback = () => api.sendMessage({body:`</> 🥰𝐁𝐒𝐈🇧🇩𝐌𝐔𝐋𝐓𝐘𝐋𝐏𝐋𝐀𝐘𝐄𝐑✅𝐁𝐃\n•This Is Our Official Trip\nTiMe-\n√1️⃣ [12:00] PM 🏖️🥰\n√2️⃣ [03:00] PM🏜️ 😍\n√3️⃣  [10:00] PM🌃☺\n\n♻️GROUP ID \n4730568810395667
 ---[ADMIN AND MOD]---\n\n
