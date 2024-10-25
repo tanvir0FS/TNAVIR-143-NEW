@@ -1,137 +1,96 @@
-[
-    {
-        "key": "dbln",
-        "value": "%7B%2261562879332380%22%3A%223wmxctJI%22%2C%2261562913892396%22%3A%22a16F52Nu%22%2C%2261562861637574%22%3A%22znThcz6M%22%2C%22100005881964828%22%3A%22X5qQkLs0%22%2C%22100071677211067%22%3A%22lvCmWLXX%22%2C%2261567178977615%22%3A%22BPZRgSUc%22%7D",
-        "domain": "facebook.com",
-        "path": "/login/device-based/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "sb",
-        "value": "yWmTZs3Nj_P2Z7odYjPi7f0K",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "datr",
-        "value": "yWmTZogAcqmYyGFGk0EnGhE1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "ps_n",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "ps_l",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "dpr",
-        "value": "2.75",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "locale",
-        "value": "en_GB",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "vpd",
-        "value": "v1%3B785x393x2.75",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "m_pixel_ratio",
-        "value": "2.75",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "wd",
-        "value": "393x785",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "c_user",
-        "value": "100009401487211",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "fr",
-        "value": "1VXUEp3y83QoFurMp.AWW3izR-B1odcwYEgrlLlKdt-oM.Bmk9MM..AAA.0.0.BnG_bw.AWWpF3tEqJU",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "xs",
-        "value": "36%3A6HFlPs4tFj5TvQ%3A2%3A1729885937%3A-1%3A5127",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "wl_cbv",
-        "value": "v2%3Bclient_version%3A2655%3Btimestamp%3A1729885940",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
-    },
-    {
-        "key": "fbl_st",
-        "value": "100639171%3BT%3A28831432",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-10-25T19:53:10.649Z",
-        "lastAccessed": "2024-10-25T19:53:10.649Z"
+{
+  "version": "1.7.6",
+  "language": "en",
+  "useEnvForCredentials": false,
+  "envGuide": "When useEnvForCredentials enabled, it will use the process.env key provided for email and password, which helps hide your credentials, you can find env in render's environment tab, you can also find it in replit secrets.",
+  "DeveloperMode": true,
+  "autoCreateDB": false,
+  "allowInbox": false,
+  "autoClean": true,
+  "adminOnly": false,
+  "encryptSt": true,
+  "removeSt": false,
+  "UPDATE": {
+    "Package": false,
+    "EXCLUDED": [
+      "chalk",
+      "mqtt",
+      "https-proxy-agent"
+    ],
+    "Info": "This section manages the bot's automatic package updates. To disable this function, set 'Package' to false. If you only want to exclude specific packages, set them to true and add them in the 'EXCLUDED' list."
+  },
+  "commandDisabled": [],
+  "eventDisabled": [],
+  "BOTNAME": "[ . ] 𝐓𝐀𝐍𝐕𝐈𝐑 𝟏𝟒𝟑 𝐁𝐎𝐓 🥵💋",
+  "PREFIX": ".",
+  "ADMINBOT": [
+    "100005881964828",
+    "100032407831557",
+    "100044327656712",
+    "100049037743618"
+  ],
+  "reactUnsend": [
+    "😡",
+    "😾",
+    "👎",
+    "😠"
+  ],
+  "DESIGN": {
+    "Title": "BotPack",
+    "Theme": "Blue",
+    "Admin": "TANVIR AHMED",
+    "Setup": {
+      "Info": "Design your own custom terminal Titlebar for the title and must contain no numbers",
+      "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker themes to enhance your terminal logs."
     }
-]
+  },
+  "APPSTATEPATH": "appstate.json",
+  "DEL_FUNCTION": false,
+  "ADD_FUNCTION": true,
+  "optionsFca": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": false,
+    "logLevel": "error",
+    "selfListen": false,
+    "selfListenEvent": true,
+    "autoMarkDelivery": false,
+    "autoReconnect": false
+  },
+  "daily": {
+    "cooldownTime": 43200000,
+    "rewardCoin": 500
+  },
+  "work": {
+    "cooldownTime": 1200000
+  },
+  "help": {
+    "autoUnsend": true,
+    "delayUnsend": 60
+  },
+  "adminUpdate": {
+    "autoUnsend": true,
+    "sendNoti": true,
+    "timeToUnsend": 10
+  },
+  "adminNoti": {
+    "autoUnsend": true,
+    "sendNoti": true,
+    "timeToUnsend": 10
+  },
+  "sing": {
+    "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
+    "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+  },
+  "video": {
+    "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+  },
+  "audio": {
+    "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+  },
+  "menu": {
+    "autoUnsend": true,
+    "delayUnsend": 60
+  }
+}
